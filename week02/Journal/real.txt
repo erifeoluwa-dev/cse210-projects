@@ -1,7 +1,5 @@
 using System;
-// Enhancement: Users can add their own custom journal prompts to the
-// rotation (option 6), addressing the "I don't know what to write about"
-// barrier mentioned in the assignment by letting them personalize prompts.
+
 class Program
 {
     static void Main(string[] args)
@@ -15,7 +13,6 @@ class Program
             Console.WriteLine("3. Save the journal to a file");
             Console.WriteLine("4. Load the journal from a file");
             Console.WriteLine("5. Quit");
-            Console.WriteLine("6. Add a custom prompt");
             Console.Write("What would you like to do? ");
             string choice = Console.ReadLine();
             if (choice == "1")
@@ -26,23 +23,10 @@ class Program
             {
                 journal.Display();
             }
-            else if (choice == "3")
-            {
-                journal.SaveToFile();
-            }
-            else if (choice == "4")
-            {
-                journal.LoadFromFile();
-            }
-
             else if (choice == "5")
             {
                 quit = true;
-            } 
-            else if (choice == "6")
-            {
-                journal.AddCustomPrompt();
-            }  
+            }   
         }
         
     }
