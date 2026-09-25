@@ -21,9 +21,6 @@ public class Journal
         entry1._response = response;
         entry1._date = date;
         _entries.Add(entry1);
-
-
-
     }
     public void Display()
     {
