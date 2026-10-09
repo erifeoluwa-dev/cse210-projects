@@ -1,0 +1,7 @@
+Score|300
+SimpleGoal|assignment|complete ny cse210 assignment today|40|True
+EternalGoal|prayer|daily prayer|50
+ChecklistGoal|gym|daily exercise|30|3|3|120|True
+SimpleGoal|walk|take a walk in the morning|20|False
+EternalGoal|study|daily study of scripture|49
+ChecklistGoal|exercise|gym|20|3|0|80|False
